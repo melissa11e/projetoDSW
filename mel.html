@@ -4,50 +4,103 @@
 <html>
 <head>
 <title>Sinopse do projeto</title>
+
 <style>
-h1{
-color: #1D7480;
-}
-  
-p.azul{
+.classe1{
+background-color: #398FFF;
+padding: 20px;
 text-align:center;
+color:white;
+font-family: calibri;
+}
+
+#texto_dazul{
+color:#00006B;
+font-size:25px;
+font-family: calibri;
+}
+
+#texto_branco{
+color:#E8FFF6;
+font-family: calibri;
+}
+
+.classe2{
+background-color: #F0FFDF;
+font-family: calibri;
+}
+
+#title_size{
+font-size:40px;
+}
+
+#text_size{
+font-size:20px;
+}
+
+#imagem{
+ position: relative;
+ left:450px;
 }
 
 </style>
 </head>
 
 <body>
-<div class="classe 1">
+<div class="classe1">
 <h1>Sobre o que se trata?</h1>
-<p>Um site para uma clínica de consultas e exames, que auxilia em alguns serviços
-como:
-<br>Marcar consulta/exame;
+<p id="texto_dazul">Um site para uma clínica de consultas e exames, que auxilia em alguns serviços
+como:</p>
+
+<p id="texto_branco">
+<strong>
+Marcar consulta/exame;
 <br>Visualizar marcados;
 <br>Cancelar marcados;
 <br>Visualizar resultado de exames.
+</strong>
 </p>
 </div>
 
+<div class="classe2">
 
-<h2>Como vai funcionar?</h2>
-<p class="azul">O usuário acessa o site e faz login com seu CPF e senha cadastrados. Se não possuir
-cadastro, fazer com nome, CPF, data de nascimento, e-mail, telefone e senha.
+<h2 id="title_size">Como vai funcionar?</h2>
+<p>O usuário acessa o site e faz login com seu CPF e senha cadastrados.<br>
+Caso não possua cadastro, deve ser feito um novo com nome, CPF, data de nascimento, e-mail, telefone e senha.
 <br> O usuário pode, por meio de sua página, marcar exames e consultas, cancelar e
 visualizar e imprimir resultados de exames.
 <br> O site deve funcionar nos principais navegadores e estar disponível tanto para
 desktops quanto para dispositivos móveis. </p>
 
-<p class="azul"> Deve haver um banco de dados open source que armazene os dados de cadastro
-para que o login seja realizado, e que armazene as informações dos serviços.
-<br>São elas:horários,datas, especialidades e pessoa que marcou esse serviço.</p>
+<p> Deve haver um banco de dados open source que armazene os dados de cadastro
+para que o login seja realizado e que armazene as informações dos serviços.
+<br>São elas:horários, datas, especialidades e pessoa que marcou esse serviço.</p>
 
 <p> As cores devem estar em tons de azul e verde, pois é uma prática que na área da
 saúde se use tonalidades frias.</p>
 
 <img src="https://www.crivos.com.br/imganexos/img-criacao-de-sites-
-20180622031411.jpg?20190622001">
+20180622031411.jpg?20190622001"  id="imagem" >
 
-<p> <br> <br> Giovanni Willio
+<p id="text_size"> Haverão as seguintes páginas: <br>
+- Home;<br>
+- Login; <br>
+- Cadastro; <br>
+- Recuperação de senha; <br>
+- Usuário; <br>
+- Visualização de resultados; <br>
+- Visualização de marcados; <br>
+- Marcar; <br>
+- Pagamento.
+</p>
+
+
+<p style="text-align:center;"> <br> <br> Giovanni Willio
+<br>Melissa Alvares </p>
+</div>
+</body>
+
+</html>
 <br>Melissa Alvares </p>
 
 </body>
