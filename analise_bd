@@ -1,0 +1,7 @@
+create table alunos(ra int, nome varchar(50), dt_nascimento date, renda decimal(15,2), primary key (ra));
+
+insert into alunos values(111,"josé","28/09/2000",4000);
+insert into alunos values(112,"marcos","28/09/2001",4050);
+insert into alunos values(113,"maria","28/09/1980",5990);
+insert into alunos values(114,"joana","28/09/1987",10000);
+insert into alunos values(115,"carlos","28/09/1999",44000);
