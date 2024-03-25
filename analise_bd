@@ -18,6 +18,7 @@ set nome="josé da silva",
 renda= 4500
 where ra= 111
 
+---------------------------------------------------------------------------------------------------------------------------
 
 create table funcionário (
 cd_funcionário int auto_increment primary key,
