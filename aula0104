@@ -17,20 +17,22 @@ clique aqui </button>
 ----------------------------
 
 <!DOCTYPE html>
-
+<meta charset="UTF-8">
 <html>
 <body>
 
-<script>
+<p id='resultado'> </p>
 
+<script>
 let x =10;
-let y= 9;
-let media= (x+y)/2;
-document.getElementById("Resultado".innerHTML='a media é '+media; console.log(media);
+let y = 9;
+let media = (x+y)/2;
+document.getElementById("Resultado").innerHTML='a media é ' + media;
+console.log(media);
 alert(media);
 </script>
 
-<p id='resultado'> </p>
 
 </body>
 </html>
+
