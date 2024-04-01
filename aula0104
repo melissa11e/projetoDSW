@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+
+<h1> Exemplo de Java Script </h1>
+
+<button type= "button"
+onclick="document.getElementById('demo').innerHTML = 'hello world'">
+clique aqui </button>
+
+<p id="demo"></p>
+</body>
+
+</html>
