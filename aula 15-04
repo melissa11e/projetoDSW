@@ -10,3 +10,64 @@ echo "nosso primeiro PHP";
 </p>
 </body>
 </html>
+
+
+
+
+
+
+-------------------- 
+<?php>
+class funcionario {
+private $re;
+private $nome;
+private $dataAdmissao;
+private $salario;
+
+    function__construct($re,$nome,$dataAdmissao,$salario){
+    $this->re = $re;
+    $this->nome = $nome;
+    $this->$dataAdmissao = $dataAdmissao;
+    $this->$salario = $salario;
+	}
+
+
+public function getRe() {
+return this ->re;
+}
+
+public function setRe() {
+$this ->re = $re;
+}
+
+public function getNome() {
+return this ->nome;
+}
+
+public function setNome() {
+$this ->nome = $nome;
+}
+
+public function getDataAdmissao() {
+return this ->dataAdmissao;
+}
+
+public function setDataAdmissao() {
+$this ->dataAdmissao = $dataAdmissao;
+}
+
+--------------
+
+<?php>
+class aluno {
+	private $ra;
+	private $nome;
+	private $dataNascimento;
+	private $renda;
+
+  function__construct($ra,$nome,$dataNascimento,$renda){
+	  
+		
+		
+	
+	
