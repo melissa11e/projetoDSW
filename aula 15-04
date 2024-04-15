@@ -24,7 +24,7 @@ private $nome;
 private $dataAdmissao;
 private $salario;
 
-    function__construct($re,$nome,$dataAdmissao,$salario){
+    function __construct($re,$nome,$dataAdmissao,$salario){
     $this->re = $re;
     $this->nome = $nome;
     $this->$dataAdmissao = $dataAdmissao;
